@@ -1,0 +1,14 @@
+#Creating virtual environment:
+conda create -p venv python==3.12 -y
+
+#Different ways to create environment
+--------------------------------------
+
+##1 python -m venv myenv  (prerreuisite- only python)
+    myenv\Scripts\activate  (script->activate)
+    pip install numpy       (now install any librayr req.)
+
+##2(linux)
+            pip install virtualenv
+            virtualenv -p python3 virtual_env
+            virtual_env\Scripts\activate
